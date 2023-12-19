@@ -12,8 +12,7 @@ params:
     ignore_lang: "CSS,JavaScript,SCSS,HTML,TeX"
 ---
 
-```{r}
-#| label: load_packages
+```{r load_package, message=FALSE, warning=FALSE}
 library("ghql")
 library("jsonlite")
 library("tidyverse")
@@ -23,7 +22,7 @@ source("helper.R")
 ignore_lang <- str_split(params$ignore_lang, ",")[[1]]
 ```
 
-```{r}
+```{r setup_data, cache=TRUE}
 #| label: setup_data
 #| cache: true
 token <- Sys.getenv("GITHUB_TOKEN")
@@ -94,7 +93,7 @@ stargaze <- gh::gh("/users/{username}/starred", username = params$userid, .accep
 
 ```
 
-```{r}
+```{r prep_data}
 #| label: prep_data
 
 contrib <- res$data$user$contributionsCollection$contributionCalendar$weeks
