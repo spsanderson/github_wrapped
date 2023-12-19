@@ -2,8 +2,6 @@
 
 Create a personal GitHub wrapped using Quarto Dashboards
 
-![](schochastics.png)
-
 ## Setup
 
 1. Create a [Github token](https://github.com/settings/tokens) (needs read:user access)
