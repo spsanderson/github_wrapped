@@ -1,13 +1,11 @@
 ---
 page-title: "GitHub Wrapped 2023"
-format: 
-  dashboard:
-    scrolling: true 
+format: html
 theme: darkly
 execute: 
   echo: false
 params:
-    userid: "schochastics"
+    userid: "spsanderson"
     highlight: "#DBAC34"
     anti_color: "#DB5934"
     bg_color: "#2D2D2D"
