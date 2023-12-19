@@ -147,7 +147,7 @@ stars <- ifelse(stars == 100, "100+", stars)
 
 ## Simple Stats
 
-```{r warning=FALSE}
+```{r warning=FALSE, echo=FALSE}
 #| content: valuebox
 #| title: "Total Contributions"
 l <- list(
@@ -160,7 +160,7 @@ cat("Stars: ", l$value, "\n")
 ```
 
 
-```{r warning=FALSE}
+```{r warning=FALSE, echo=FALSE}
 #| content: valuebox
 #| title: "Repositories created"
 l <- list(
@@ -172,7 +172,7 @@ l <- list(
 cat("Repositories Created: ", l$value, "\n")
 ```
 
-```{r warning=FALSE}
+```{r warning=FALSE, echo=FALSE}
 #| content: valuebox
 #| title: "Issues opened"
 l <- list(
@@ -184,7 +184,7 @@ l <- list(
 cat("Issues Opened: ", l$value, "\n")
 ```
 
-```{r warning=FALSE}
+```{r warning=FALSE, echo=FALSE}
 #| content: valuebox
 #| title: "Pull requests"
 l <- list(
@@ -196,7 +196,7 @@ l <- list(
 cat("Pull Requests: ", l$value, "\n")
 ```
 
-```{r warning=FALSE}
+```{r warning=FALSE, echo=FALSE}
 #| content: valuebox
 #| title: "Stargazed"
 l <- list(

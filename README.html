@@ -2126,45 +2126,10 @@ spsanderson
 </center>
 <div id="simple-stats" class="section level2">
 <h2>Simple Stats</h2>
-<pre class="r"><code>l &lt;- list(
-    icon = &quot;stars&quot;,
-    color = params$highlight,
-    value = res$data$user$contributionsCollection$totalCommitContributions
-)
-
-cat(&quot;Stars: &quot;, l$value, &quot;\n&quot;)</code></pre>
 <pre><code>## Stars:  1206</code></pre>
-<pre class="r"><code>l &lt;- list(
-    icon = &quot;journal-arrow-up&quot;,
-    color = &quot;#9BA7C0&quot;,
-    value = res$data$user$contributionsCollection$totalRepositoryContributions
-)
-
-cat(&quot;Repositories Created: &quot;, l$value, &quot;\n&quot;)</code></pre>
 <pre><code>## Repositories Created:  3</code></pre>
-<pre class="r"><code>l &lt;- list(
-    icon = &quot;bullseye&quot;,
-    color = &quot;#9BA7C0&quot;,
-    value = res$data$user$contributionsCollection$totalIssueContributions
-)
-
-cat(&quot;Issues Opened: &quot;, l$value, &quot;\n&quot;)</code></pre>
 <pre><code>## Issues Opened:  173</code></pre>
-<pre class="r"><code>l &lt;- list(
-    icon = &quot;sign-merge-right&quot;,
-    color = &quot;#9BA7C0&quot;,
-    value = res$data$user$contributionsCollection$totalPullRequestContributions
-)
-
-cat(&quot;Pull Requests: &quot;, l$value, &quot;\n&quot;)</code></pre>
 <pre><code>## Pull Requests:  232</code></pre>
-<pre class="r"><code>l &lt;- list(
-    icon = &quot;star-fill&quot;,
-    color = &quot;#9BA7C0&quot;,
-    value = stars
-)
-
-cat(&quot;Stargazed: &quot;, l$value, &quot;\n&quot;)</code></pre>
 <pre><code>## Stargazed:  48</code></pre>
 </div>
 <div id="contribution-calendar" class="section level2">
