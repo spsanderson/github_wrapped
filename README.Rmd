@@ -1,6 +1,7 @@
 ---
 page-title: "GitHub Wrapped 2023"
 theme: darkly
+format: html
 execute: 
   echo: false
 params:
