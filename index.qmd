@@ -1,6 +1,8 @@
 ---
 page-title: "GitHub Wrapped 2023"
-format: html
+format: gfm
+#  dashboard:
+#    scrolling: true 
 theme: darkly
 execute: 
   echo: false
